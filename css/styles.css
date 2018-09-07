@@ -1,0 +1,33 @@
+* {
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+/* border: 1px red solid; */
+}
+
+p {
+  font-weight: bold;
+}
+.media {
+  width: 100%;
+}
+
+.text {
+  padding: 1.5em;
+  line-height: 2em;
+}
+
+@media (min-width: 768px) {
+  .media{
+    width: 75%;
+    max-width: 1080px;
+    margin: 2em auto;
+  }
+
+  .text {
+    width: 75%;
+    max-width: 1080px;
+    padding: 0;
+    margin: 1.5em auto;
+    line-height: 2.5em;
+  }
+}
